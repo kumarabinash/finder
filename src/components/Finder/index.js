@@ -26,7 +26,6 @@ function Finder(props){
 
   // Runs when user searches for a query
   useEffect(() => {
-    console.log(props.data);
     search(value);
   }, [value]);
 
@@ -59,10 +58,8 @@ function Finder(props){
   function navigate(e){
     if([38, 40].indexOf(e.keyCode) > -1){
       if(e.keyCode === 38){
-        console.log("handling up");
         handleUp()
       } else {
-        console.log("handling down");
         handleDown()
       }
     }
