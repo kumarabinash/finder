@@ -7,6 +7,10 @@ function App() {
       <header className="App-header">
         <Finder />
       </header>
+
+      <footer>
+        <a href="https://drive.google.com/file/d/18QTUqaAA0Tnl8f8NN8vpKi1SvY4oGQ5u/view" target="_blank">¯\_(ツ)_/¯</a>
+      </footer>
     </div>
   );
 }

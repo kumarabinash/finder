@@ -15,7 +15,7 @@
 
 
 .highlight{
-  background: #FBFBE0;
+  background: #ebf3ff;
 }
 
 .finder-search-box{
@@ -65,4 +65,30 @@
 .finder-results .no-results{
   font-size: 16px;
   padding: 30px 30px;
+}
+
+mark{
+  background-color: #b3f89c;
+}
+
+footer{
+  position: fixed;
+  background: white;
+  height: 26px;
+  bottom: 0;
+  font-family: sans-serif;
+  width: 100%;
+  text-align: center;
+  color: #eee;
+}
+
+footer a{
+  text-decoration: none;
+  color: #ddd;
+}
+footer a:visited{
+  color: #ccc;
+}
+footer a:hover{
+  color: #333;
 }
